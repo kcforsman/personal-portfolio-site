@@ -75,8 +75,8 @@ footer {
   box-shadow: -1px -1px 2px #030;
 }
 
-footer > section {
-  margin: auto 50px;
+footer > div {
+  margin: auto 35px;
 }
 
 .container-breadcrumb {
@@ -112,7 +112,7 @@ footer > section {
   color: #696;
 }
 
-footer div {
+.footer-logo {
   padding-top: 35px;
   text-align: center;
   margin: auto 0;
