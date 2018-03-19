@@ -1,0 +1,128 @@
+body {
+  color: #030;
+  background: url("../media/greymotif.png")
+}
+
+a:link, a:visited {
+  color: #030;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #696;
+  text-decoration: none;
+}
+
+.container-all {
+  display: grid;
+  grid-template: 55px 1fr 120px / 1fr;
+  grid-row-gap: 15px;
+  min-width: 600px;
+}
+
+#main-nav, footer {
+  display: grid;
+  background-color: #eff5ef;
+  justify-content: space-around;
+  border-top: 2px solid #030;
+  border-bottom: 2px solid #030;
+}
+
+#main-nav {
+  grid-row-start: 1;
+  position: sticky;
+  width: 100%;
+  grid-template: 10px 25px 10px / 45% 10% 45%;
+  grid-column-gap: 2px;
+  box-shadow: 1px 1px 1px #030;
+  min-width: 600px;
+}
+
+main {
+  grid-row-start: 2;
+}
+
+#main-nav > h1 {
+  margin: 5px 20px;
+}
+
+#main-nav > div {
+  text-align: center;
+  margin-top: 2.5px;
+}
+
+.container-nav {
+  display: inline-flex;
+  margin-right: 20px;
+  justify-content: space-between;
+  max-width: 500px;
+
+}
+
+.container-nav li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+#hidden-nav {
+  display: none;
+}
+
+footer {
+  grid-row-start: 3;
+  grid-template: 10px 25px 10px / 45% 10% 45%;
+  grid-column-gap: 2px;
+  box-shadow: -1px -1px 2px #030;
+}
+
+footer > section {
+  margin: auto 50px;
+}
+
+.container-breadcrumb {
+    font-size: .9em;
+}
+.site-map {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.site-map > li {
+  padding-left: 5px;
+}
+
+.site-map li ul {
+  padding-left: 0px;
+
+}
+
+.site-map li ul li {
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 10px;
+  font-size: .9em;
+}
+
+.site-map li ul li a:link {
+  color: #396039;
+}
+
+.site-map li ul li a:hover {
+  color: #696;
+}
+
+footer div {
+  padding-top: 35px;
+  text-align: center;
+  margin: auto 0;
+}
+
+.container-copy {
+  text-align: right;
+}
+
+.container-copy p {
+  padding-top: 35px;
+  margin-top: 0px;
+}
