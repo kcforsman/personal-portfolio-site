@@ -1,6 +1,7 @@
 body {
   color: #030;
-  background: url("../media/greymotif.png")
+  background: url("../media/greymotif.png");
+  font-family: 'Gentium Book Basic', serif;
 }
 
 a:link, a:visited {
@@ -38,8 +39,56 @@ a:hover {
   min-width: 600px;
 }
 
+h1, h2, h3 {
+  font-family: 'Fredericka the Great', cursive;
+  margin-left: 20px;
+}
+
 main {
   grid-row-start: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.page-title {
+    color: white;
+    height: 150px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.page-title h1 {
+  font-weight: bold;
+  font-size: 5em;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.page-title p {
+  font-weight: bold;
+  font-size: 2em;
+  min-width: 300px;
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+main > * {
+  border: 2px solid #030;
+  box-shadow: 1px 1px 1px #030;
+  background-color: #eff5ef;
+}
+
+ main > section {
+  background-color: #eff5ef;
+  margin-top: 20px;
 }
 
 #main-nav > h1 {
