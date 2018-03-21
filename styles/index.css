@@ -1,3 +1,70 @@
 .page-title {
   background-image: url("../media/headers/header-1.JPG");
 }
+
+main > section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main > section > h2 {
+  font-size: 3.5em;
+}
+.about-sum, .portfolio-sum, .journal-sum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-sum {
+  flex-direction: row-reverse;
+}
+
+.about-sum > * {
+  margin: 25px;
+
+}
+
+.about-sum img {
+  border: 2px solid #030;
+  border-radius: 100%;
+}
+
+.container-details {
+  max-width: 45%;
+  min-width: 350px;
+  text-align: right;
+  width: 150px;
+}
+
+.container-details p {
+  font-size: 1.3em;
+  text-align: left;
+}
+
+.preview:link {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 45px;
+  border: 2px solid #030;
+  border-radius: 100%;
+  color: rgba(0, 51, 0, 0);
+}
+
+.design:link {
+  background-image: url("../media/design-thumbnail.jpg");
+}
+
+.develop:link {
+  background-image: url("../media/develop-thumbnail.png");
+}
+
+.preview:hover  {
+  color: white;
+  font-size: 1.5em;
+  background-image: url("");
+  background-color: #030;
+}
